@@ -103,7 +103,7 @@ int cantidad=venta[dto][0];
         mostrar_ventas_anuales(ventas_dto);
         break;        
             case 5:
-                System.out.println("ingrese el departamento que quiere analizar");
+                System.out.println("ingrese el departamento que requiere analizar");
                
                 dto=lectura.nextInt();
         mostrar_mejor_mes(ventas_dto,dto);
